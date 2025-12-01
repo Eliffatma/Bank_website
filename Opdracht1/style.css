@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #EFE3E3;
+    margin: 0;
+}
+
+.header {
+    background-color: #448321;
+    font-size: 22px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu{
+    background-color: #448321;
+    font-size: 21px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.inhoud {
+    padding: 25px;
+    font-size: 18px;
+}
+
+img {
+    width: 280px;
+    position: absolute;
+    right: 300px;
+    top: 260px;
+    border-radius: 15px;
+}
