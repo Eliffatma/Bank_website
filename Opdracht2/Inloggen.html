@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="login-container">
+    <h1>Inloggen</h1>
+    <form id="login-form">
+      <input type="text" id="Gebruikersnaam" placeholder="Gebruikersnaam" required />
+      <input type="password" id="Wachtwoord" placeholder="Wachtwoord" required />
+      <button type="button" onclick="login()">Inloggen</button>
+      <p id="error-msg"></p>
+    </form>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
