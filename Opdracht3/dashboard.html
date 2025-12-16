@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Bank van de Toekomst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard - Bank van de Toekomst</h1>
+        <button class="logout-btn" onclick="logout()">Uitloggen</button>
+    </div>    
+ 
+    <header>
+        <div class="container1">
+            <h1>Rekeningbeheer Dashboard</h1>
+            <br>
+            <h2>Uw Rekeningen</h2>
+ 
+            <ul id="accounts">
+                <li>
+                    <span>Rekening Saldo</span>
+                    <span>€2.450,75</span>
+                </li>
+                <li>
+                    <span>Spaarrekening</span>
+                    <span>€8.750,00</span>
+                </li>
+            </ul>
+            <button class="btn" onclick="addAccount()">Nieuwe Rekening Aanmaken</button>
+        </div>
+    </header>
+ 
+        <div class="dashboard-grid">
+ 
+            <!-- Recente transacties Card -->
+            <div class="card">
+                <h2>Recente Transacties</h2>
+                <ul class="transactions">
+                    <li>
+                        <span>Dirk</span>
+                        <span class="transaction-amount negative">- € 45,20</span>
+                    </li>
+                    <li>
+                        <span>Salaris</span>
+                        <span class="transaction-amount positive">+ € 2.500,00</span>
+                    </li>
+                    <li>
+                        <span>Sportcentrum</span>
+                        <span class="transaction-amount negative">- € 13,99</span>
+                    </li>
+                    <li>
+                        <span>Ziggo</span>
+                        <span class="transaction-amount negative">- € 54,95</span>
+                    </li>
+                </ul>
+                <button class="btn">Alle transacties</button>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
