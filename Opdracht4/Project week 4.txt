@@ -1,0 +1,13 @@
+Project week 4
+
+1. Wat snap ik nu beter dan voor deze opdracht?
+
+- Ik begrijp beter hoe ik JavaScript moet gebruiken
+
+2. Waarvoor heb ik AI gebruikt? (uitleg/controle/code genereren/debuggen)
+
+- Er waren stukjes die het niet deden en ik kon niet vinden waarom, dus ik liet de code aan AI zien zodat ie het kan fixen. Dus uitleg en debuggen. 
+
+3. Zou ik deze opdracht zonder AI kunnen maken? (ja/deels/nee)
+
+- Ik denk het nog niet. Ik maak nog best wel wat fouten, maar ik ben zeker beter geworden dan de vorige keren.
