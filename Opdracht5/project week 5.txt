@@ -1,0 +1,13 @@
+project week 5
+
+1. Wat snap ik nu beter dan voor deze opdracht?
+
+- Die functions zijn wel wat duidelijker geworden.
+
+2. Waarvoor heb ik AI gebruikt? (uitleg/controle/code genereren/debuggen)
+
+- Ik gebruikte AI voor debuggen en soms voor uitleg.
+
+3. Zou ik deze opdracht zonder AI kunnen maken? (ja/deels/nee)
+
+- Deels. Debuggen wond ik irritant en had daar echt wel hulp nodig, want alles ging helemaal uit hand lopen.

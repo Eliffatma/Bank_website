@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactiegeschiedenis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Transactiegeschiedenis</h1>
+    
+    <div class="filters">
+      <div class="filter-group">
+        <label for="filter-type">Filter op type:</label>
+        <select id="filter-type">
+          <option value="alle">Alle</option>
+          <option value="inkomend">Inkomend</option>
+          <option value="uitgaand">Uitgaand</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="filter-datum">Filter op datum:</label>
+        <input type="date" id="filter-datum">
+      </div>
+
+      <button onclick="filterTransactions()" class="btn-filter">Filteren</button>
+      <button onclick="resetFilters()" class="btn-reset">Resetten</button>
+    </div>
+    <div id="transaction-list"></div>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
