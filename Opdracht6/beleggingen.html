@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beleggingen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="beleggen-kaart">
+      <h3>Beleggingen</h3>
+
+      <p>Beschikbaar saldo: €<span id="saldo">930.00</span></p>
+      
+      <label for="categorie">Kies een categorie:</label>
+      <select id="categorie">
+          <option value="aandelen">Aandelen</option>
+          <option value="crypto">Crypto</option>
+        </select>
+        
+        <label for="product">Kies een product:</label>
+        <select id="product"></select>
+        
+        <p>Huidige prijs: €<span id="prijs">0.00</span></p>
+        
+        <label for="bedrag">Investeer bedrag (€):</label>
+        <input type="number" id="bedrag" min="1">
+        
+        <button onclick="BeleggingDoen()">Investeren</button>
+        
+        <p id="message"></p>
+        <p id="investering"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
