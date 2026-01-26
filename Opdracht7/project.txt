@@ -1,0 +1,13 @@
+project 
+
+Wat snap ik nu beter dan voor deze opdracht?
+
+- hoe ik dingen kan weergeven.
+
+Waarvoor heb ik AI gebruikt? (uitleg/controle/code genereren/debuggen)
+
+- ik  vraag altijd om uitleg om het duidelijker voor mezelf te maken en debuggen als er iets fout gaat. 
+
+Zou ik deze opdracht zonder AI kunnen maken? (ja/deels/nee)
+
+- deels, want meest heb ik van de vorige opdracht genomen en aangepast.
